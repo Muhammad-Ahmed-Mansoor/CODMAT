@@ -1,0 +1,38 @@
+Given determinant is:-
+
+  |                              |
+  |9.89899e+007             98+j9|
+  |89+j89                    8+j9|  
+  |                              |
+
+Reducing determinant to upper triangular form through row operations:-
+ 
+  |                              |
+  |9.89899e+007             98+j9|
+  |89+j89                    8+j9|  
+  |                              |
+
+Extracting 9.89899e+007 from Row#1 :-
+
+                 |                  |
+                 |1                0|
+ = (9.89899e+007)|89+j89        8+j9|  
+                 |                  |
+
+Adding -89-j89 times Row#1 to Row#2 :-
+
+                 |              |
+                 |1            0|
+ = (9.89899e+007)|0         8+j9|  
+                 |              |
+
+Extracting 8+j9 from Row#2 :-
+
+                               |        |
+                               |1      0|
+ = (7.91919e+008+j8.90909e+008)|0      1|  
+                               |        |
+
+Now the matrix is in upper triangular form so the determinant is simply the product of the diagonal entries with 7.91919e+008+j8.90909e+008 :-
+
+Det= 7.91919e+008+j8.90909e+008 x 1 x 1 = 7.91919e+008+j8.90909e+008

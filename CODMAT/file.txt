@@ -1,0 +1,51 @@
+Given determinant is:-
+
+  |                        |
+  |1.000      2.000   3.000|
+  |4.000      5.000   6.000|  
+  |7.000      8.000   9.000|
+  |                        |
+
+Reducing determinant to upper triangular form through row operations:-
+ 
+  |                        |
+  |1.000      2.000   3.000|
+  |4.000      5.000   6.000|  
+  |7.000      8.000   9.000|
+  |                        |
+
+Adding -4.000 times Row#1 to Row#2 :-
+
+          |                           |
+          |1.000        2.000    3.000|
+ = (1.000)|0.000       -3.000   -6.000|  
+          |7.000        8.000    9.000|
+          |                           |
+
+Adding -7.000 times Row#1 to Row#3 :-
+
+          |                              |
+          |1.000          2.000     3.000|
+ = (1.000)|0.000         -3.000    -6.000|  
+          |0.000         -6.000   -12.000|
+          |                              |
+
+Extracting -3.000 from Row#2 :-
+
+           |                              |
+           |1.000          2.000     3.000|
+ = (-3.000)|0.000          1.000     2.000|  
+           |0.000         -6.000   -12.000|
+           |                              |
+
+Adding 6.000 times Row#2 to Row#3 :-
+
+           |                        |
+           |1.000      2.000   3.000|
+ = (-3.000)|0.000      1.000   2.000|  
+           |0.000      0.000   0.000|
+           |                        |
+
+Now the matrix is in upper triangular form so the determinant is simply the product of the diagonal entries with -3.000 :-
+
+Det= -3.000 x 1.000 x 1.000 x 0.000 = 0.000

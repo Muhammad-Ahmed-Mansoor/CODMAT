@@ -1,0 +1,9 @@
+We find the inverse by appending an identity matrix of order 2 with the given matrix.
+It is found that:-
+
+  |                |
+  |0.000      0.000|
+  |0.000      0.000|  = 0
+  |                |
+
+So the given problem does not have a finite solution.
